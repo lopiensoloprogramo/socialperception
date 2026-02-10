@@ -129,6 +129,15 @@ export default function App() {
           INICIAR ESCANEO
         </button>
 
+        <div className="border border-green-500 bg-black/40 rounded p-2 text-center text-xs mt-2">
+          <p className="text-green-400 mb-1">Sponsored</p>
+
+          <div id="native-ad-container" className="min-h-[90px] flex items-center justify-center">
+            {/* Aquí Adsterra inyecta la publicidad */}
+          </div>
+        </div>
+
+
         {loading && (
           <div className="mt-3 text-xs">
             <p>▓▓▓░░░░░░░░░░░░░░░░░░</p>
@@ -143,6 +152,14 @@ export default function App() {
           </div>
         )}
       </div>
+      <div className="hidden">
+  <script
+    async
+    data-cfasync="false"
+    src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js">
+  </script>
+</div>
+
     </div>
   );
 }
