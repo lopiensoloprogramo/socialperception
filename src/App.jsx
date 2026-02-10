@@ -42,17 +42,7 @@ const results = {
     "Hay algo que no pueden soltar."
   ],
 };
-useEffect(() => {
-  const s = document.createElement("script");
-  s.src = "https://TU_SCRIPT_NATIVE.js"; // tu script real
-  s.async = true;
-  s.setAttribute("data-cfasync", "false");
-  document.getElementById("native-ad-container")?.appendChild(s);
 
-  return () => {
-    s.remove();
-  };
-}, []);
 
 
 export default function App() {
@@ -62,6 +52,16 @@ export default function App() {
   const [loading, setLoading] = useState(false);
   const [value, setValue] = useState(null);
   const [message, setMessage] = useState("");
+
+  useEffect(() => {
+  const s = document.createElement("script");
+  s.src =
+    "https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js";
+  s.async = true;
+  s.setAttribute("data-cfasync", "false");
+  document.body.appendChild(s);
+}, []);
+
 
   const analyze = () => {
     if (!a || !b || !link) {
@@ -143,9 +143,10 @@ export default function App() {
         <div className="border border-green-500 bg-black/40 rounded p-2 text-center text-xs mt-2">
           <p className="text-green-400 mb-1">Sponsored</p>
 
-          <div id="native-ad-container" className="min-h-[90px] flex items-center justify-center">
-            {/* Aquí Adsterra inyecta la publicidad */}
-          </div>
+          <div
+            id="container-d686662595f7d3b09cd4a320ee0e24a1"
+            className="min-h-[90px] flex items-center justify-center"
+          ></div>
         </div>
 
 
@@ -163,10 +164,7 @@ export default function App() {
           </div>
         )}
       </div>
-      <div className="hidden">
-<script async="async" data-cfasync="false" src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js"></script>
-<div id="container-d686662595f7d3b09cd4a320ee0e24a1"></div>
-</div>
+
 
 
     </div>
