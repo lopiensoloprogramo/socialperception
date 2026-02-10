@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 
 const results = {
   trabajo: [
@@ -42,6 +42,17 @@ const results = {
     "Hay algo que no pueden soltar."
   ],
 };
+useEffect(() => {
+  const s = document.createElement("script");
+  s.src = "https://TU_SCRIPT_NATIVE.js"; // tu script real
+  s.async = true;
+  s.setAttribute("data-cfasync", "false");
+  document.getElementById("native-ad-container")?.appendChild(s);
+
+  return () => {
+    s.remove();
+  };
+}, []);
 
 
 export default function App() {
@@ -155,6 +166,13 @@ export default function App() {
       <div className="hidden">
 <script async="async" data-cfasync="false" src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js"></script>
 <div id="container-d686662595f7d3b09cd4a320ee0e24a1"></div>
+</div>
+<div className="hidden">
+  <script
+    async
+    data-cfasync="false"
+    src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js">
+  </script>
 </div>
 
     </div>
