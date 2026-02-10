@@ -78,11 +78,17 @@ export default function App() {
       <div className="border border-green-500 w-[360px] p-4 shadow-[0_0_20px_rgba(0,255,0,0.2)]">
         <p className="text-xs">SOCIAL PERCEPTION SYSTEM</p>
         <p className="text-[10px] mb-2">v1.0 private module</p>
-        <p className="text-[10px] mb-2">Procesando micro-señales sociales para estimar cómo te perciben cuando no estás.</p>
+
 
         <div className="border-t border-green-500 my-2"></div>
 
-        <p className="text-xs">STATUS: ANALYSIS READY</p>
+           <h1 className="text-xl font-bold tracking-widest">
+          SOCIAL PERCEPTION SYSTEM
+        </h1>
+
+        <p className="text-xs text-purple-300">
+          Procesando micro-señales sociales para estimar cómo te perciben cuando no estás.
+        </p>
 
         <div className="space-y-2 mt-3 text-sm">
           <input
