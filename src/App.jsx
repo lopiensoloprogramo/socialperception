@@ -87,7 +87,7 @@ export default function App() {
         </h1>
 
         <p className="text-xs text-purple-300">
-          Procesando micro-señales sociales para estimar cómo te perciben cuando no estás.
+          Procesamos micro-señales sociales para estimar cómo te perciben cuando no estás.
         </p>
 
         <div className="space-y-2 mt-3 text-sm">
