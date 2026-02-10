@@ -93,13 +93,13 @@ export default function App() {
         <div className="space-y-2 mt-3 text-sm">
           <input
             className="w-full bg-black border border-green-500 p-1"
-            placeholder="Nombre A"
+            placeholder="Tu nombre"
             value={a}
             onChange={(e) => setA(e.target.value)}
           />
           <input
             className="w-full bg-black border border-green-500 p-1"
-            placeholder="Nombre B"
+            placeholder="Nombre de la persona..."
             value={b}
             onChange={(e) => setB(e.target.value)}
           />
