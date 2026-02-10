@@ -167,13 +167,7 @@ export default function App() {
 <script async="async" data-cfasync="false" src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js"></script>
 <div id="container-d686662595f7d3b09cd4a320ee0e24a1"></div>
 </div>
-<div className="hidden">
-  <script
-    async
-    data-cfasync="false"
-    src="https://pl28685533.effectivegatecpm.com/d686662595f7d3b09cd4a320ee0e24a1/invoke.js">
-  </script>
-</div>
+
 
     </div>
   );
