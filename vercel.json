@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "destination": "https://www.peoplehint.net/percepcion-social",
+      "permanent": true
+    }
+  ]
+}
